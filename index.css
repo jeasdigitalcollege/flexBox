@@ -4,10 +4,26 @@
 
 .container {
     background-color: gray;
+    width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    row-gap: 10px;
+    column-gap: 100px;
+}
+
+.white {
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 10px;
+
 }
 
 .box {
@@ -15,14 +31,17 @@
     height: 200px;
 }
 
-.blue {
-    background-color: blue;
+
+.red {
+    background-color: red;
 }
 
-.green {
-    background-color: green;
-
+.black {
+    background-color: black;
 }
+
 .yellow {
     background-color: yellow;
 }
+
+

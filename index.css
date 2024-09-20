@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+.container {
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+
+}
+.yellow {
+    background-color: yellow;
+}
